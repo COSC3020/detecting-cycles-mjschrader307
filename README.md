@@ -15,3 +15,20 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+---
+
+Answer:
+
+This implementation of cycle detection applies a DFS-sort of procedure to every node in the graph.
+
+The DFS procedure has a complexity of $\Theta(|V| + |E|)$, and this is the same regardless of the graph setup.
+
+Therefore, this algorithm for cycle detection has a runtime complexity of $\Theta(|V|(|V| + |E|))$ for all cases.
+
+---
+
+**I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.**
